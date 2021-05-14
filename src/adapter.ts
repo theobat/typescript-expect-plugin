@@ -95,7 +95,7 @@ export class Adapter {
         tag && tag.comment && tag.tagName.escapedText === "expect";
 
       if (isExpectTag) {
-        const hasNotKeyword = tag.comment?.includes("not");
+        const hasNotKeyword = tag.comment?.includes("not" as any);
         const fnKeyword =
           EXPECT_KEYWORDS.find((keyword) => tag.comment?.includes(keyword)) ||
           "";

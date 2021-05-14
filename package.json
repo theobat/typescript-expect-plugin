@@ -32,18 +32,18 @@
     "node": ">=10"
   },
   "dependencies": {
-    "byots": "^4.0.0-dev.20200523.13.57",
-    "expect": "^26.0.1",
-    "read-pkg-up": "^7.0.1",
-    "tmp": "^0.2.1",
-    "ts-node": "^8.10.1"
+    "byots": "4.3.0-dev.20210326.17.17",
+    "expect": "26.6.2",
+    "read-pkg-up": "8.0.0",
+    "tmp": "0.2.1",
+    "ts-node": "9.1.1"
   },
   "peerDependencies": {
-    "typescript": ">=3.7.0"
+    "typescript": "4.2.4"
   },
   "devDependencies": {
     "@types/node": "^14.0.1",
     "@types/tmp": "^0.2.0",
-    "typescript": "^3.9.2"
+    "typescript": "4.2.4"
   }
 }
